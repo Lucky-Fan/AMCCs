@@ -1,0 +1,34 @@
+<tlLogics>
+ <!-- synchoronized -->
+    <tlLogic id="T01" type="static" programID="1" offset="0">
+        <phase duration="21" state="gGGggrrrgGGggrrr"/>          <!-- north south T L -->
+        <phase duration="4"  state="gyyygrrrgyyygrrr"/>   
+        <phase duration="41" state="grrrgGGggrrrgGGg"/>          <!-- west east T L -->
+        <phase duration="4"  state="grrrgyyygrrrgyyy"/>
+        <!-- <phase duration="2" state="rrrrrrrrrrrrrrrr"/> -->
+    </tlLogic>
+   
+    <tlLogic id="T02" type="static" programID="custom" offset="90">  <!--76-->
+        <phase duration="57" state="GGGGr"/> 
+        <phase duration="5" state="yyyyr"/>
+        <phase duration="15" state="rrrrG"/>
+        <phase duration="3" state="rrrrr"/> 
+    </tlLogic>
+
+	<!--65 when cycle is 70, 36 when cycle is 80-->
+    <!-- <tlLogic id="T02" type="static" programID="custom" offset="36"> -->
+        <!-- <phase duration="57" state="GGGGr"/> -->
+        <!-- <phase duration="5" state="yyyyr"/> -->
+        <!-- <phase duration="15" state="rrrrG"/> -->
+        <!-- <phase duration="3" state="rrrrr"/> -->
+    <!-- </tlLogic> -->
+   
+    <tlLogic id="T03" type="static" programID="2" offset="28">
+        <phase duration="31" state="gGGggrrrgGGggrrr"/>          <!-- north south T L -->
+        <phase duration="4"  state="gyyygrrryyyygrrr"/>   
+        <phase duration="41" state="grrrgGGggrrrgGGg"/>          <!-- west east T L -->
+        <phase duration="4"  state="grrrgyyygrrrgyyy"/>
+        <!-- <phase duration="2" state="rrrrrrrrrrrrrrrr"/> -->
+    </tlLogic>
+
+</tlLogics>

@@ -1,0 +1,19 @@
+<additional>
+<inductionLoop id="LP17_0" lane="gneE17_0" pos="-100" freq="300" file="loop_detector_out.xml"/>
+<inductionLoop id="LP17_1" lane="gneE17_1" pos="-100" freq="300" file="loop_detector_out.xml"/>
+<inductionLoop id="-LP17_0" lane="-gneE17_0" pos="-100" freq="300" file="loop_detector_out.xml"/>
+<inductionLoop id="-LP17_1" lane="-gneE17_1" pos="-100" freq="300" file="loop_detector_out.xml"/>
+<inductionLoop id="LP18_0" lane="gneE18_0" pos="-100" freq="300" file="loop_detector_out.xml"/>
+<inductionLoop id="LP18_1" lane="gneE18_1" pos="-100" freq="300" file="loop_detector_out.xml"/>
+<inductionLoop id="-LP18_0" lane="-gneE18_0" pos="-100" freq="300" file="loop_detector_out.xml"/>
+<inductionLoop id="-LP18_1" lane="-gneE18_1" pos="-100" freq="300" file="loop_detector_out.xml"/>
+<!-- For links' travel time collection-->
+<inductionLoop id="-TLP18_0" lane="-gneE18_0" pos="0.1" freq="300" file="loop_detector_out.xml"/>
+<inductionLoop id="-TLP18_1" lane="-gneE18_1" pos="0.1" freq="300" file="loop_detector_out.xml"/>
+<inductionLoop id="TLP17_0" lane="gneE17_0" pos="-0.1" freq="300" file="loop_detector_out.xml"/>
+<inductionLoop id="TLP17_1" lane="gneE17_1" pos="-0.1" freq="300" file="loop_detector_out.xml"/>
+<inductionLoop id="-TLP17_0" lane="-gneE17_0" pos="0.1" freq="300" file="loop_detector_out.xml"/>
+<inductionLoop id="-TLP17_1" lane="-gneE17_1" pos="0.1" freq="300" file="loop_detector_out.xml"/>
+<inductionLoop id="TLP18_0" lane="gneE18_0" pos="-0.1" freq="300" file="loop_detector_out.xml"/>
+<inductionLoop id="TLP18_1" lane="gneE18_1" pos="-0.1" freq="300" file="loop_detector_out.xml"/>
+</additional>

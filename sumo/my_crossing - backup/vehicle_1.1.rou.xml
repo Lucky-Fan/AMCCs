@@ -1,0 +1,37 @@
+<routes>
+    <flow id="01" begin="0" end="7200" probability="0.01" from="gneE14" to="-gneE15" departLane="best"/>
+    <flow id="02" begin="0" end="7200" probability="0.01" from="gneE14" to="-gneE16" departLane="best"/> <!-- 72 vph  -->
+    <flow id="03" begin="0" end="7200" probability="0.1" from="gneE14" to="-gneE19" departLane="best"/> <!-- 360 vph -->
+    <flow id="04" begin="0" end="7200" probability="0.01" from="gneE14" to="-gneE20" departLane="best"/>
+    <flow id="05" begin="0" end="7200" probability="0.01" from="gneE14" to="-gneE21" departLane="best"/> <!-- 72 vph -->
+
+    <flow id="06" begin="0" end="7200" probability="0.01" from="gneE15" to="-gneE14" departLane="best"/>
+    <flow id="07" begin="0" end="7200" probability="0.02" from="gneE15" to="-gneE16" departLane="best"/> 
+    <flow id="08" begin="0" end="7200" probability="0.01" from="gneE15" to="-gneE19" departLane="best"/>
+    <!-- <flow id="09" begin="0" end="7200" probability="0" from="gneE15" to="-gneE20" departLane="best"/> -->
+    <flow id="10" begin="0" end="7200" probability="0.01" from="gneE15" to="-gneE21" departLane="best"/>
+
+    <flow id="11" begin="0" end="7200" probability="0.01" from="gneE16" to="-gneE14" departLane="best"/>
+    <flow id="12" begin="0" end="7200" probability="0.02" from="gneE16" to="-gneE15" departLane="best"/>  
+    <flow id="13" begin="0" end="7200" probability="0.01" from="gneE16" to="-gneE19" departLane="best"/>
+    <flow id="14" begin="0" end="7200" probability="0.01" from="gneE16" to="-gneE20" departLane="best"/>
+    <!-- <flow id="15" begin="0" end="7200" probability="0" from="gneE16" to="-gneE21" departLane="best"/> -->
+
+    <flow id="16" begin="0" end="7200" probability="0.132" from="gneE19" to="-gneE14" departLane="best"/>  <!-- 500 vph -->
+    <flow id="17" begin="0" end="7200" probability="0.022" from="gneE19" to="-gneE15" departLane="best"/> 
+    <flow id="18" begin="0" end="7200" probability="0.022" from="gneE19" to="-gneE16" departLane="best"/> 
+    <flow id="19" begin="0" end="7200" probability="0.022" from="gneE19" to="-gneE20" departLane="best"/> 
+    <flow id="20" begin="0" end="7200" probability="0.022" from="gneE19" to="-gneE21" departLane="best"/>
+
+    <flow id="21" begin="0" end="7200" probability="0.022" from="gneE20" to="-gneE14" departLane="best"/>
+    <!-- <flow id="22" begin="0" end="7200" probability="0.0" from="gneE20" to="-gneE15" departLane="best"/> -->
+    <flow id="23" begin="0" end="7200" probability="0.022" from="gneE20" to="-gneE16" departLane="best"/>
+    <flow id="24" begin="0" end="7200" probability="0.022" from="gneE20" to="-gneE19" departLane="best"/>
+    <flow id="25" begin="0" end="7200" probability="0.022" from="gneE20" to="-gneE21" departLane="best"/> <!-- 54 vph -->
+
+    <flow id="26" begin="0" end="7200" probability="0.022" from="gneE21" to="-gneE14" departLane="best"/>
+    <flow id="27" begin="0" end="7200" probability="0.022" from="gneE21" to="-gneE15" departLane="best"/>
+    <!-- <flow id="28" begin="0" end="7200" probability="0" from="gneE21" to="-gneE16" departLane="best"/> -->
+    <flow id="29" begin="0" end="7200" probability="0.022" from="gneE21" to="-gneE19" departLane="best"/>
+    <flow id="30" begin="0" end="7200" probability="0.022" from="gneE21" to="-gneE20" departLane="best"/> <!-- 54 vph -->    
+</routes>

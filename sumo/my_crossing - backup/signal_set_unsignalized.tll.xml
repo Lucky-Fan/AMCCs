@@ -1,0 +1,17 @@
+<tlLogics>
+    <tlLogic id="T01" type="static" programID="1" offset="0">
+        <phase duration="26" state="gGGggrrrgGGggrrr"/>          <!-- north south T L -->
+        <phase duration="4"  state="gyyygrrrgyyygrrr"/>   
+        <phase duration="56" state="grrrgGGggrrrgGGg"/>          <!-- west east T L -->
+        <phase duration="4"  state="grrrgyyygrrrgyyy"/>
+        <!-- <phase duration="2" state="rrrrrrrrrrrrrrrr"/> -->
+    </tlLogic>
+   
+    <tlLogic id="T03" type="static" programID="2" offset="50">
+        <phase duration="26" state="gGGggrrrgGGggrrr"/>          <!-- north south T L -->
+        <phase duration="4"  state="gyyygrrryyyygrrr"/>   
+        <phase duration="56" state="grrrgGGggrrrgGGg"/>          <!-- west east T L -->
+        <phase duration="4"  state="grrrgyyygrrrgyyy"/>
+        <!-- <phase duration="2" state="rrrrrrrrrrrrrrrr"/> -->
+    </tlLogic>
+</tlLogics>

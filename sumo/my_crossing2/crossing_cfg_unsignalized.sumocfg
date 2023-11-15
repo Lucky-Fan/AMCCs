@@ -1,0 +1,17 @@
+<configuration>
+
+    <input>
+        <net-file value="co_arterial_unsignalized.net.xml"/>
+        <route-files value="vehicle.rou.xml, pedestrians.trip.xml"/>
+        <additional-files value="signal_set_unsignalized.tll.xml, loop_detector.xml"/>
+    </input>
+    
+    <time> 
+		<begin value="0"/> 
+		<end value="7200"/> 
+	</time> 
+    <gui_only>
+        <gui-settings-file value="viewsettings.xml"/>
+    </gui_only>
+
+</configuration>

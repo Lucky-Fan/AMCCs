@@ -1,0 +1,16 @@
+*.docx
+*.pickle
+*.csv
+*.pdf
+*.xlsx
+*.svg
+*.png
+*.vsdx
+*.jpg
+*.pptx
+*.emf
+results/
+results_1/
+results_2/
+results_vtt/
+paper/
